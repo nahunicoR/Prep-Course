@@ -1,0 +1,20 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+
+FOR: Cuando necesitamos repetir un código determinada cantidad de veces, aparece la opción de utilizar el buclo 'for'. Este bucle se destaca por la particularidad de su sintaxis, quien inicia con su palabra reservada "for", se abren paréntesis y se crea una variable (for(var i = 0)).
+Seguido de esto se coloca una expresión condiciona, que hasta que no sea 'false', el bucle no se detendra. Y por último, el iterador, contador, aumentador i++.
+Luego se abren llaves {}, y se coloca el código que necesitemos. 
+
+&&: el Y, AND, este operador concatena varias condiciones, ej: if(condicion1 && condicion2 &&...), lo que hace que según sus reglas booleanas. Mientras que se cumplan Todas las condiciones y sean 'True', el resultado sera, true.
+Si al menos una de ellas resulta false, no se ejecutará.
+
+
+||: el O, OR. El operador OR, ||, permite la concatenación de sus condiciones, aun que en la resolicion sólo una de esas proposiciones debe ser 'true' para que se pueda ejecutar su código. Mientras que para que sea false.
+Todas las proposiciones deben ser False.
+
+!: NO, NOT, !. El operador de la negación. Este hará que toda condicion que posea este operador, en su resultado sea inverso al que debería dar. Por ejempplo:
+si tenemos una proposicion que en su resultado es true, la condicion al tener el operador negador, en su resultado expresara false, siendo lo contrario que debería dar. 
+la particularidad es que si juntamos 2 negaciones, (!!valor), esta volverá a su valor original, conociendo asi su real estado booleano. 
