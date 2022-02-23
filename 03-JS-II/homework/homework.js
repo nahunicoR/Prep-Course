@@ -213,8 +213,8 @@ function doWhile(numero) {
   var a = numero;
   var i = 0;
   do{
-    i=i+1;
-    a = a+5;
+    i = i + 1;
+    a = a + 5;
   }
   while(i<8);
   return a;
